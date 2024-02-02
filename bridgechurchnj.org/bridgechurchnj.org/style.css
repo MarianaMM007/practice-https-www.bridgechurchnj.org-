@@ -1,0 +1,282 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 725px;
+}
+
+nav{
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropdownbutton {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdowncontent a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdowncontent a:hover {
+    background-color: grey;
+}
+  
+  .dropdown:hover .dropdowncontent {
+    display: block;
+  }
+
+  .welcomehome{
+    text-align: center;
+  }
+
+  .welcomehome h1{
+    font-size: 70px;
+  }
+
+  .welcomehome p{
+    font-size: 30px;
+  }
+
+  .worshipwithus{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: red;
+    width: auto;
+    height: 400px;
+  }
+
+  .worshipwithus h3{
+    text-align: center;
+    font-size:55px;
+  }
+
+  .worshipwithusleft{
+    float: left;
+    width:50%;
+    height:70px;
+    text-align: center;
+  }
+
+  .worshipwithusleft h6{
+    font-size: 30px;
+  }
+
+  .worshipwithusright{
+    float: right;
+    width:50%;
+    height:70px;
+    text-align: center;
+  }
+
+  .worshipwithusright h6{
+    font-size: 30px;
+  }
+
+  .ourstory{
+    width: auto;
+    height: 900px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .ourstory h3{
+    font-size: 55px;
+  }
+
+  .youbelong{
+    width: auto;
+    height: 600px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+  }
+
+  .youbelong img{
+    float: right;
+    text-align: center;
+  }
+
+  .youbelongdiv{
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: 50px;
+  }
+
+  .youbelongdiv h6{
+    font-size: 50px;
+  }
+
+  .serveothers{
+    width: auto;
+    height: 600px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+  }
+
+  .serveothers img{
+    float: left;
+    text-align: center;
+  }
+
+  .serveothersdiv{
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 50px;
+  }
+
+  .serveothersdiv h6{
+    font-size: 50px;
+  }
+
+  .whoweare{
+    padding-left: 200px;
+    padding-right: 200px;
+    width: auto;
+    height: 725px;
+    background-color: red;
+    color: white;
+  }
+
+  .whoweare img{
+    float:right;
+  }
+
+  .whowearediv{
+    float:left;
+    text-align: center;
+    width:50%;
+    height: 50px; 
+  }
+
+  .whoweare h6{
+    font-size: 50px;
+  }
+
+  .upcomingEvents{
+    padding-left: 200px;
+    padding-right: 200px;
+    width: auto;
+    height: 300px;
+    text-align: center;
+    background-color: grey;
+  }
+
+  .upcomingEvents h3{
+    font-size: 55px;
+  }
+
+ .events3rows{
+    width: auto;
+    height: 500px;
+ }
+
+ .events3rowsleft{
+    float: left;
+    width: 33%;
+    height500px;
+    border-right-style:solid;
+    border-width:3px 3px 3px 3px;
+    
+ }
+
+ .events3rowsmiddle{
+    float: left;
+    width: 33%;
+    height500px;
+    border-right-style:solid;
+    border-width:3px 3px 3px 3px;
+}
+
+.events3rowsright{
+    float: left;
+    width: 33%;
+    height500px;
+    border-right-style:solid;
+    border-width:3px 3px 3px 3px;
+}
+
+.giveOnline{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.giveOnline h3{
+  font-size: 55px;
+}
+
+footer{
+  background-color: rgb(68, 68, 68);
+  color:white;
+}
+
+.footcontacts{
+  text-align: center;
+}
+
+.footleft1{
+  width: 25%;
+  height: 50px;
+  float: left;
+}
+
+.footleft2{
+  width: 25%;
+  height: 50px;
+  float: left;
+}
+
+.footleft3{
+  width: 25%;
+  height: 50px;
+  float: left;
+}
+
+.footright{
+  width: 25%;
+  height: 50px;
+  float: right;
+}
